@@ -64,6 +64,5 @@ URL:
     else:
         print("No availability found.")
 
-send_email("Test message from GitHub Actions")
-#if __name__ == "__main__":
-#    check_page()
+if __name__ == "__main__":
+    check_page()
